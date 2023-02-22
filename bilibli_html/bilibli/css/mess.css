@@ -1,0 +1,171 @@
+		/* 不会写,直接硬加 直接全局定位*/
+		.index .index-1 #mess1{
+			position: absolute;
+			top:433px;
+			left: 800px;
+		}
+		.index .index-1 .tg-up-mess1{
+			color: #999999;
+			font-size: 13px;
+			line-height: 27px;
+			margin-top: 38px;
+			margin-left: 0px;
+			position: absolute;
+			top:433px;
+			left: 800px;
+		}
+		.index .index-1 .tg-up-mess1 span{
+			border: 1px solid #999999;
+			margin-right: 3px;
+			font-size: 1px;
+			border-radius: 2px;
+			display: inline-block;
+			padding: 0px 4.5px;
+			line-height: 12px;
+			width: 23px;
+			height: 12px;
+			text-align: center;
+		}
+		
+		.index .index-1 #mess2{
+			position: absolute;
+			top:433px;
+			right: 550px;
+		}
+		.index .index-1 .tg-up-mess2{
+			color: #999999;
+			font-size: 13px;
+			line-height: 27px;
+			margin-top: 38px;
+			margin-left: 0px;
+			position: absolute;
+			top:433px;
+			right: 690px;
+		}
+		.index .index-1 .tg-up-mess2 span{
+			border: 1px solid #999999;
+			margin-right: 3px;
+			font-size: 1px;
+			border-radius: 2px;
+			display: inline-block;
+			margin-top: 2px;
+			padding: 0px 4.5px;
+			line-height: 12px;
+			width: 23px;
+			height: 12px;
+			text-align: center;
+		}
+		.index .index-1 #mess3{
+			position: absolute;
+			top:433px;
+			right: 392px;
+		}
+		.index .index-1 .tg-up-mess3{
+			color: #999999;
+			font-size: 13px;
+			line-height: 27px;
+			margin-top: 38px;
+			margin-left: 0px;
+			position: absolute;
+			top:433px;
+			right: 410px;
+		}
+		.index .index-1 .tg-up-mess3 span{
+			border: 1px solid #999999;
+			margin-right: 3px;
+			font-size: 1px;
+			border-radius: 2px;
+			display: inline-block;
+			margin-top: 2px;
+			padding: 0px 4.5px;
+			line-height: 12px;
+			width: 23px;
+			height: 12px;
+			text-align: center;
+		}
+		.index .index-1 #mess4{
+			position: absolute;
+			top:655px;
+			left: 800px;
+		}
+		.index .index-1 .tg-up-mess4{
+			color: #999999;
+			font-size: 13px;
+			line-height: 27px;
+			margin-top: 38px;
+			margin-left: 0px;
+			position: absolute;
+			top:655px;
+			left: 800px;
+		}
+		.index .index-1 .tg-up-mess4 span{
+			border: 1px solid #999999;
+			margin-right: 3px;
+			font-size: 1px;
+			border-radius: 2px;
+			display: inline-block;
+			margin-top: 2px;
+			padding: 0px 4.5px;
+			line-height: 12px;
+			width: 23px;
+			height: 12px;
+			text-align: center;
+		}
+		
+		.index .index-1 #mess5{
+			position: absolute;
+			top:655px;
+			right: 550px;
+		}
+		.index .index-1 .tg-up-mess5{
+			color: #999999;
+			font-size: 13px;
+			line-height: 27px;
+			margin-top: 38px;
+			margin-left: 0px;
+			position: absolute;
+			top:655px;
+			right: 695px;
+		}
+		.index .index-1 .tg-up-mess5 span{
+			border: 1px solid #999999;
+			margin-right: 3px;
+			font-size: 1px;
+			border-radius: 2px;
+			display: inline-block;
+			margin-top: 2px;
+			padding: 0px 4.5px;
+			line-height: 12px;
+			width: 23px;
+			height: 12px;
+			text-align: center;
+		}
+		
+		.index .index-1 #mess6{
+			position: absolute;
+			top:655px;
+			right: 370px;
+		}
+		.index .index-1 .tg-up-mess6{
+			color: #999999;
+			font-size: 13px;
+			line-height: 27px;
+			margin-top: 38px;
+			margin-left: 0px;
+			position: absolute;
+			top:655px;
+			right: 415px;
+		}
+		.index .index-1 .tg-up-mess6 span{
+			border: 1px solid #999999;
+			margin-right: 3px;
+			font-size: 1px;
+			border-radius: 2px;
+			display: inline-block;
+			margin-top: 2px;
+			padding: 0px 4.5px;
+			line-height: 12px;
+			width: 23px;
+			height: 12px;
+			text-align: center;
+		}

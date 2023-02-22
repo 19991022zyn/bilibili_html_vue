@@ -1,0 +1,100 @@
+*{
+	
+				box-sizing: border-box;
+			}
+			/****************   轮播图片  ********************/
+			/* 【不动】使用outer最外层的盒子 来显示图片（限制图片能看到的区域） */
+			#outer{
+
+				/* overflow: hidden; */ /*超出隐藏*/
+				/* 让它具备定位的特性，就可以成为子元素的基准父容器 */
+				
+				border: 1px dashed red;
+				width: 535px;
+				height: 365px;
+				position: relative;
+				overflow: hidden;
+				margin-right: 10px;
+				float: left;
+				border-radius: 8px;
+			}
+			/* 【向左动】所有图片列表 */
+			#imgList{
+				/* border: 2px solid red; */
+				overflow: hidden;/* 隐藏图片超出当前ul盒子的部分 */
+				/* 宽度： 图片数量6 X 下面样式中设置的单张图片宽度400
+					盒子#imgList宽度 6 X 400	= 2400px 
+					下方对li加了margin左右空10那么 两张图片间就有20间隙
+					那么6张图就有5个间隙，就是 5 X 20 = 100
+					再加上首尾两张图各10px，就是20px
+					最终要增加 120px
+					2400 + 120 = 2520px
+					注意下方对img的样式border ，再加上6个img 的左右边框 12px
+					再算上自身的边框4px
+					最终宽度 2520 + 12 + 4 = 2536
+				*/
+				/* width: 2536px;  */
+				/*推荐使用绝对定位，人走不占坑
+					但是它默认已定位的父容器作基准，
+					如果没有找到已定位的父容器则默认以浏览器的边为基准
+				*/
+				height: 365px;
+				position: relative;
+			}
+			#imgList li{
+				/* border: 1px dashed blue; */
+				list-style-type: none;/*去除列表项前面的小黑点*/
+				/*让li横向排列，因为li放的是图片，其实就是让图片横向排列*/
+				
+				float: left;
+				border-radius: 4px;
+				position: relative;
+			}
+			#outer #imgList li img{
+				/* 边框也占空间，6张图多了12个边框单位（1px），那就多了12px */
+				/* border: 1px dashed green; */
+				/**
+				 * 一张图的宽度是400px
+				 */
+			width: 535;
+			height: 365px;
+			border-radius: 4px;
+			}
+			#outer #imgList p{
+				position: absolute;
+				width: 100%;
+				height: 30px;
+				bottom: 3px;
+				text-indent: 20px;
+				font-size: 14px;
+				color: #FFFFFF;
+				background-color: rgba(0,0,0,.1);
+				box-shadow: -2px -2px 2px rgba(0,0,0,.1);
+			}
+			#outer #imgList p span{
+				background-color: #D3CBCB;
+				border-radius: 2px;
+				padding: 0px 3px;
+				margin: 0px 3px;
+				color: #81645C;
+				font-size: 10px;
+			}
+			/****************   导航按钮  ********************/
+			#navDiv{
+				position: relative; 
+				bottom: 30px; 
+				margin-left: 150px;
+			}
+			#navDiv a{
+				background-color: #FFFFFF;
+				float: left;
+				width: 15px;
+				height: 15px;
+				margin: 0px 5px;
+				opacity: 0.5;
+				border-radius: 50%;
+				filter: alpha(opacity=50);
+			}
+			#navDiv a:hover{
+				background-color: black;	
+			}
